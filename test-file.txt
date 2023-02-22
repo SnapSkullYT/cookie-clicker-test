@@ -18,11 +18,11 @@ Layout
 		
 Buttons
 	*moneyButton
-		name:Make a bunny
-		desc:Click this little bunny to get more bunnies!
+		name:
+		desc:Click this little dollar to get more money!
 		on click:anim icon wobble
 		on click:yield 1 bunny
-		on click:if (have goldenTouch and chance(1%)) yield 1 goldenDollar
+		on click:if (have goldenTouch and chance(1%)) yield 1 goldenMoney
 		icon:stuff/mo.png
 		no text
 		class:bigButton hasFlares
@@ -57,10 +57,10 @@ Shinies
 			$boost=1
 			if (have clover) $boost=4
 			if (chance(25%))
-				//get at least 7, or between 1 and 3 minutes of our bunny production
-				$amount=max(7,random(bunnies:ps*60*1,bunnies:ps*60*3))*$boost
+				//get at least 7, or between 1 and 3 minutes of our money production
+				$amount=max(7,random(money:ps*60*1,money:ps*60*3))*$boost
 				toast The lucky dollar grants you<//><b>[$amount] dollars</b>.
-				yield $amount bunnies
+				yield $amount money
 			else
 				$amount=1*$boost
 				toast The lucky dollar grants you<//><b>[$amount] golden dollars[s?$amount]</b>!
