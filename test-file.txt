@@ -31,22 +31,22 @@ Buttons
 		tooltip class:red
 		
 Resources
-	*bunny|bunnies
-		name:Money|Money
+	*money
+		name:Money
 		desc:This is money. You can use it to purchase things. Your goal is to have as much money as possible!
 		icon:icons[0,0]
 		class:noBackground
 		show earned
 		
-	*goldenCarrot|goldenCarrots
-		name:Golden carrot|Golden carrots
+	*goldenMoney
+		name:Golden Money
 		desc:These shiny carrots are terribly rare, terribly precious and terribly delicious!
 		icon:icons[0,1]
 		class:noBackground
 		hidden when 0
 		
 Shinies
-	*luckyBunny
+	*luckyMoney
 		on click:log Woop
 		movement:onRight moveLeft fade bounce:0.05
 		frequency:60
@@ -59,12 +59,12 @@ Shinies
 			if (chance(25%))
 				//get at least 7, or between 1 and 3 minutes of our bunny production
 				$amount=max(7,random(bunnies:ps*60*1,bunnies:ps*60*3))*$boost
-				toast The lucky bunny grants you<//><b>[$amount] bunnies</b>.
+				toast The lucky dollar grants you<//><b>[$amount] dollars</b>.
 				yield $amount bunnies
 			else
 				$amount=1*$boost
-				toast The lucky bunny grants you<//><b>[$amount] golden carrot[s?$amount]</b>!
-				yield $amount goldenCarrot
+				toast The lucky dollar grants you<//><b>[$amount] golden dollars[s?$amount]</b>!
+				yield $amount goldenMoney
 			end
 		end
 
@@ -74,27 +74,27 @@ Buildings
 		
 	*cage|cages
 		name:Rabbit cage|Rabbit cages
-		desc:A tiny little cage.<//><b>Effect:</b><.>Produces 1 rabbit every 10 seconds.
+		desc:A tiny little cage.<//><b>Effect:</b><.>Produces 1 dollar every 10 seconds.
 		icon:icons[3,0]
-		cost:15 bunnies
-		on tick:yield 0.1 bunny
+		cost:15 money
+		on tick:yield 0.1 money
 		unlocked
 	
 	*hutch|hutches
 		name:Rabbit hutch|Rabbit hutches
-		desc:A bit roomier than a cage, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 rabbit every 2 seconds.
+		desc:A bit roomier than a cage, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 dollar every 2 seconds.
 		icon:icons[3,1]
-		cost:100 bunnies
-		on tick:yield 0.5 bunnies
-		req:100 bunnies:earned
+		cost:100 money
+		on tick:yield 0.5 money
+		req:100 money:earned
 	
 	*coop|coops
 		name:Rabbit coop|Rabbit coops
-		desc:A much nicer rabbit home where full bunny families can live.<//><b>Effect:</b><.>Produces 5 rabbits per second.
+		desc:A much nicer rabbit home where full bunny families can live.<//><b>Effect:</b><.>Produces 5 dollars per second.
 		icon:icons[3,2]
-		cost:600 bunnies
-		on tick:yield 5 bunnies
-		req:600 bunnies:earned
+		cost:600 money
+		on tick:yield 5 money
+		req:600 money:earned
 	
 	*pen|pens
 		name:Rabbit pen|Rabbit pens
