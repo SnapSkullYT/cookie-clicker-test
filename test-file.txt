@@ -114,7 +114,7 @@ Buildings
 	
 	*village|villages
 		name:Rabbit village|Rabbit villages
-		desc:Your bunnies are building their own villages now!<//><b>Effect:</b><.>Produces 300 rabbits per second.
+		desc:Your money are building their own villages now!<//><b>Effect:</b><.>Produces 300 rabbits per second.
 		icon:icons[3,5]
 		cost:200000 money, 1 goldenMoney
 		on tick:yield 300 money
@@ -156,7 +156,7 @@ Upgrades
 	
 	*parsley
 		name:Parsley
-		desc:A nice little supplement to your bunnies' diet.<//><b>Effect:</b><.>+1 bunny/click
+		desc:A nice little supplement to your money' diet.<//><b>Effect:</b><.>+1 bunny/click
 		icon:icons[1,1]
 		cost:100 money
 		passive:increase money yield of moneyButton by 1
@@ -164,7 +164,7 @@ Upgrades
 		
 	*spinach
 		name:Spinach
-		desc:Big tasty leaves, perfect for hungry bunnies.<//><b>Effect:</b><.>+1 bunny/click
+		desc:Big tasty leaves, perfect for hungry money.<//><b>Effect:</b><.>+1 bunny/click
 		icon:icons[1,2]
 		cost:200 money
 		passive:increase money yield of moneyButton by 1
@@ -172,7 +172,7 @@ Upgrades
 		
 	*lettuce
 		name:Lettuce
-		desc:Frilly greens loved by all bunnies.<//><b>Effect:</b><.>+1 bunny/click
+		desc:Frilly greens loved by all money.<//><b>Effect:</b><.>+1 bunny/click
 		icon:icons[1,3]
 		cost:400 money
 		passive:increase money yield of moneyButton by 1
@@ -180,7 +180,7 @@ Upgrades
 		
 	*broccoli
 		name:Broccoli
-		desc:Crunchy greens that look like little trees.<//><b>Effect:</b><.>bunnies/click x2<.>bunny production +5%
+		desc:Crunchy greens that look like little trees.<//><b>Effect:</b><.>money/click x2<.>bunny production +5%
 		icon:icons[1,4]
 		cost:3000 money
 		passive:multiply money yield of moneyButton by 2
@@ -189,7 +189,7 @@ Upgrades
 		
 	*apple
 		name:Apple
-		desc:Nice pieces of juicy red apples.<//><b>Effect:</b><.>bunnies/click x1.5<.>bunny production +5%
+		desc:Nice pieces of juicy red apples.<//><b>Effect:</b><.>money/click x1.5<.>bunny production +5%
 		icon:icons[1,5]
 		cost:10000 money
 		passive:multiply money yield of moneyButton by 1.5
@@ -198,7 +198,7 @@ Upgrades
 		
 	*radish
 		name:Radish
-		desc:Purple, crunchy, and strangely spicy.<//><b>Effect:</b><.>bunnies/click x1.5<.>bunny production +5%
+		desc:Purple, crunchy, and strangely spicy.<//><b>Effect:</b><.>money/click x1.5<.>bunny production +5%
 		icon:icons[1,6]
 		cost:50000 money
 		passive:multiply money yield of moneyButton by 1.5
@@ -207,7 +207,7 @@ Upgrades
 		
 	*mint
 		name:Mint
-		desc:Tasty, and gives your bunnies a lovely breath.<//><b>Effect:</b><.>money/click x1.5<.>bunny production +5%
+		desc:Tasty, and gives your money a lovely breath.<//><b>Effect:</b><.>money/click x1.5<.>money production +5%
 		icon:icons[1,7]
 		cost:100000 money
 		passive:multiply money yield of moneyButton by 1.5
@@ -216,7 +216,7 @@ Upgrades
 		
 	*chard
 		name:Chard
-		desc:Broad leaves that make for a tasty salad.<//><b>Effect:</b><.>bunnies/click x1.5<.>bunny production +5%
+		desc:Broad leaves that make for a tasty salad.<//><b>Effect:</b><.>money/click x1.5<.>bunny production +5%
 		icon:icons[1,8]
 		cost:500000 money
 		passive:multiply money yield of moneyButton by 1.5
@@ -225,7 +225,7 @@ Upgrades
 		
 	*cherry
 		name:Cherry
-		desc:Your bunnies look like little vampires when they start munching on these!<//><b>Effect:</b><.>bunnies/click x1.5<.>bunny production +5%
+		desc:Your money look like little vampires when they start munching on these!<//><b>Effect:</b><.>money/click x1.5<.>bunny production +5%
 		icon:icons[1,9]
 		cost:1000000 money
 		passive:multiply money yield of moneyButton by 1.5
@@ -234,7 +234,7 @@ Upgrades
 		
 	*carrot
 		name:Carrot
-		desc:The quintessential rabbit food! Crunchy, orange, and perfect.<//><b>Effect:</b><.>bunnies/click x2<.>bunny production +10%
+		desc:The quintessential rabbit food! Crunchy, orange, and perfect.<//><b>Effect:</b><.>money/click x2<.>bunny production +10%
 		icon:icons[1,0]
 		cost:100000000 money
 		passive:multiply money yield of moneyButton by 2
@@ -245,7 +245,7 @@ Upgrades
 	
 	*buildingUpgrade1
 		name:Sippy bottles
-		desc:Your bunnies can drink their fill!<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
+		desc:Your money can drink their fill!<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
 		icon:icons[2,0] icons[3,0]
 		cost:1000 money
 		passive:multiply yield of cage by 2
@@ -275,7 +275,7 @@ Upgrades
 		
 	*buildingUpgrade4
 		name:Pretty fences
-		desc:Just the right size so your bunnies can peek through but not hop over!<//><b>Effect:</b><.>rabbit pen production x2<.>rabbit meadow production x2
+		desc:Just the right size so your money can peek through but not hop over!<//><b>Effect:</b><.>rabbit pen production x2<.>rabbit meadow production x2
 		icon:icons[2,0] icons[3,3]
 		cost:50000 money
 		passive:multiply yield of pen by 2
@@ -284,7 +284,7 @@ Upgrades
 		
 	*buildingUpgrade5
 		name:Bunny playground
-		desc:If your bunnies are outside, they might as well get some exercise!<//><b>Effect:</b><.>rabbit pen production x2<.>rabbit meadow production x2
+		desc:If your money are outside, they might as well get some exercise!<//><b>Effect:</b><.>rabbit pen production x2<.>rabbit meadow production x2
 		icon:icons[2,0] icons[3,4]
 		cost:5000000 money
 		passive:multiply yield of pen by 2
@@ -302,7 +302,7 @@ Upgrades
 		
 	*buildingUpgrade7
 		name:Wee little bunny cars
-		desc:Your bunnies drive around in these. How nice!<//><b>Effect:</b><.>rabbit village production x2<.>rabbit city production x2
+		desc:Your money drive around in these. How nice!<//><b>Effect:</b><.>rabbit village production x2<.>rabbit city production x2
 		icon:icons[2,0] icons[3,6]
 		cost:500000000 money
 		passive:multiply yield of village by 2
@@ -328,7 +328,7 @@ Upgrades
 		
 	*rabbitHaste
 		name:Rabbit's haste
-		desc:I'm late! I'm late! For a very important date!<//><b>Effect:</b><.>lucky bunnies appear 30% more often
+		desc:I'm late! I'm late! For a very important date!<//><b>Effect:</b><.>lucky money appear 30% more often
 		icon:icons[2,6]
 		passive:multiply frequency of luckyMoney by 0.7
 		cost:5 goldenMoney
@@ -336,7 +336,7 @@ Upgrades
 	
 	*independenceDay
 		name:Independence day
-		desc:Your bunnies are making their first step towards declaring their independence from the oppressive shackles of pens and cages.<//><b>Effect:</b><.>unlocks new buildings
+		desc:Your money are making their first step towards declaring their independence from the oppressive shackles of pens and cages.<//><b>Effect:</b><.>unlocks new buildings
 		icon:icons[2,7]
 		cost:10 goldenMoney
 		req:5 goldenMoney:earned
@@ -365,13 +365,13 @@ Achievements
 		req:1 money
 		icon:icons[2,4] icons[0,2] icons[0,6]
 	*bunnyAchiev2
-		name:Bunniest home videos
-		desc:Have <b>1000</b> bunnies.
+		name:money home videos
+		desc:Have <b>1000</b> money.
 		req:1000 money
 		icon:icons[2,4] icons[0,3] icons[0,6]
 	*bunnyAchiev3
 		name:You got buns, hun
-		desc:Have <b>1000000</b> bunnies.
+		desc:Have <b>1000000</b> money.
 		req:10000000 money
 		icon:icons[2,4] icons[0,4] icons[0,6]
 		
@@ -393,17 +393,17 @@ Achievements
 		
 	*bunnyPsAchiev1
 		name:Be vewy vewy quiet
-		desc:Produce <b>10</b> bunnies per second.
+		desc:Produce <b>10</b> money per second.
 		req:10 money per second
 		icon:icons[2,3] icons[0,2] icons[0,6]
 	*bunnyPsAchiev2
 		name:Hop and a skip
-		desc:Produce <b>1000</b> bunnies per second.
+		desc:Produce <b>1000</b> money per second.
 		req:1000 money per second
 		icon:icons[2,3] icons[0,3] icons[0,6]
 	*bunnyPsAchiev3
 		name:Go forth and multiply
-		desc:Produce <b>100000</b> bunnies per second.
+		desc:Produce <b>100000</b> money per second.
 		req:100000 money per second
 		icon:icons[2,3] icons[0,4] icons[0,6]
 		
