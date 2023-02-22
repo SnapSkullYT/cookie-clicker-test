@@ -23,7 +23,7 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 money
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenMoney
-		icon:stuff/mo.png
+		icon:https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/US_one_dollar_bill%2C_obverse%2C_series_2009.jpg/1200px-US_one_dollar_bill%2C_obverse%2C_series_2009.jpg
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
