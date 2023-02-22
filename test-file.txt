@@ -211,7 +211,7 @@ Upgrades
 		icon:icons[1,7]
 		cost:100000 money
 		passive:multiply money yield of moneyButton by 1.5
-		passive:multiply yield of bunnies by 1.05
+		passive:multiply yield of money by 1.05
 		req:50000 money:earned
 		
 	*chard
