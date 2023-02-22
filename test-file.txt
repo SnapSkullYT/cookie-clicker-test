@@ -207,7 +207,7 @@ Upgrades
 		
 	*mint
 		name:Mint
-		desc:Tasty, and gives your bunnies a lovely breath.<//><b>Effect:</b><.>bunnies/click x1.5<.>bunny production +5%
+		desc:Tasty, and gives your bunnies a lovely breath.<//><b>Effect:</b><.>money/click x1.5<.>bunny production +5%
 		icon:icons[1,7]
 		cost:100000 money
 		passive:multiply money yield of moneyButton by 1.5
