@@ -10,7 +10,7 @@ Settings
 	background:stuff/meadow.jpg
 	building cost increase:115%
 	building cost refund:50%
-	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
+	spritesheet:icons, 512 by 512, https://i.ibb.co/hdPnVtx/money-Icons.png
 	stylesheet:stuff/bigBlue.css
 
 Layout
@@ -23,7 +23,7 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 money
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenMoney
-		icon:https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/US_one_dollar_bill%2C_obverse%2C_series_2009.jpg/1200px-US_one_dollar_bill%2C_obverse%2C_series_2009.jpg
+		icon:icons[0,0]
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
